@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Pacifico", cursive;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.container {
+  margin: 30px 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn__add {
+  background: #2ecc71;
+  border: 1px solid #2ecc71;
+  margin: 0 20px 10px auto;
+  padding: 8px 16px;
+  transition: 0.2s;
+  font-size: 12pt;
+}
+
+.btn__add:hover {
+  background: #fff;
+  border: 1px dashed #2ecc71;
+  color: #2ecc71;
+}
+
+.btn__edit {
+  background: #f1c40f;
+  border: 1px solid #f1c40f;
+  margin: 5px 0;
+  padding: 7px 11px;
+  font-size: 11pt;
+  transition: 0.2s;
+}
+
+.btn__edit:hover {
+  background: #fff;
+  border: 1px dashed #f1c40f;
+  color: #f1c40f;
+}
+
+.btn__delete {
+  background: #c0392b;
+  border: 1px solid #c0392b;
+  margin: 5px 0;
+  padding: 7px 11px;
+  font-size: 11pt;
+  transition: 0.2s;
+}
+
+.btn__delete:hover {
+  background: #fff;
+  border: 1px dashed #c0392b;
+  color: #c0392b;
+}
+
+.action {
+}
+
+.content {
+  text-align: justify;
+  padding: 10px;
+}
+
+.form {
+  margin: 0 150px;
+}
+
+.input {
+  margin: 10px 0;
+}
+
+.input__label {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.input__items {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: solid black 1px;
+  outline: none;
+}
+
+.input__items:focus {
+  border: 1px solid #2ecc71;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.btn__submit {
+  background: #2ecc71;
+  border: 1px solid #2ecc71;
+  margin: 5px 0;
+  padding: 7px 11px;
+  font-size: 11pt;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn__submit:hover {
+  background: #fff;
+  border: 1px dashed #2ecc71;
+  color: #2ecc71;
+}
+
+.alert {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.alert__error {
+  color: #c0392b;
+  background: #ecb4ae;
+  border: solid 1px #c0392b;
+}
+
+.alert__success {
+  color: #2ecc71;
+  background: #a1ecc0;
+  border: solid 1px #2ecc71;
+}
+
+.img {
+  width: 100%;
+}
